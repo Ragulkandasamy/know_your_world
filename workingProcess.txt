@@ -1,0 +1,8 @@
+In this process, the system uniquely identifies the features in the image given like color code, characters and some unique parameters in the source object. 
+The above parameters are the only way to scan the unique factors object. Frame markers play a major role in the identification of an image or a video that is already 
+embedded in the application.
+
+TARGET RECOGNITION AND VIDEO PLAYBACK:
+Once the frame markers identify the target or the image that needs to be processed it connects to the Vuforia database and 
+verifies the image shown with the target image and executes the functions. If the image is shown and the target images match the respected function
+allocated will be executed. In this application, the video explaining the particular image or symbol will play accordingly.
