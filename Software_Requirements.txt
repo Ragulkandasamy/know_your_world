@@ -1,0 +1,64 @@
+
+SOFTWARE REQUIREMENTS:
+
+Unlike other projects, the software requirements for this project are very less and can be accessed easily. Unity 3D is the major tool or software required for the
+development of this project. Vuforia is an online platform that enables us to create the project in the necessary platforms like android or IOS. 
+Vuforia plugin is an online store for Vuforia wherein the necessary kits for the project can be downloaded. The other tools which can be used to develop 
+the projects of this kind are Android Studio XCode.
+
+UNITY 3D:
+
+Unity is a cross-platform application development tool developed by Unity Technologies, which develops video games and simulators for mobile devices, PC's, tablets.
+The first version released was Unity 1.0 in 2005. It supports programming languages supported like C++ and C#. The reason to choose Unity  over several other software
+is to develop the AR application  as  simply as possible with extendibility of the software for much easier. The installation part of Unity 3D is easy.
+
+VUFORIA LIBRARY:
+  
+The most important part of this project is that to import the Vuforia Library functions to unity. As Vuforia is not a development tool, it requires a development
+platform where its functionalities can be explored. Vuforia’s latest update has separate development targets for Android, iOS, and Windows independently.
+Vuforia demands the developers to have a separate account. The developers need to create a free license key which later can be inserted to Unity to access 
+the account and its contents. The license key is unique to each developer.
+
+APPLICATION CREATION PROCESS:
+
+The application development process consists of various steps. Planning, analysis, design, construction, testing, implementation and support are the steps
+that ensure the stability and efficiency of the application. Vuforia plugins are available from within the menus and can be used with simple steps.
+
+PROJECT SCENES:
+		
+This application is created by simply clicking the new project in the file console of the unity platform. This  project is developed by recognizing  three- dimensional 
+objects by creating  3D application in the file console itself. After the selection, the unity renders the new window where in which the projects are developed. 
+Initially, there will be a camera(AR camera) provided in the console and the camera options can be changed and even delete it if not necessary. 
+In addition to that, extra camera can also be imported if necessary.
+
+VUFORIA SET-UP:
+
+The next important step in the development of the application is to Set-up the Vuforia account. Vuforia provides all its users a unique ID and a license key to make 
+sure that the user and the project are active and it also enables the users to track their project’s status and functionality. The first and the foremost step is to 
+log in to the Vuforia and verify the ID generated to get a license key and paste it to the Unity to get access to the Vuforia”s plugin and its resources
+
+DEBUGGING AND TESTING:
+
+Applications developed must be tested and debugged before the final release. Testing is essential for the application to make that it is working and do not make 
+any fatal errors that could collapse the entire system. In Unity, the developed applications can be tested with the cross platforms or it can be tested within the 
+system where the application has been developed. The major requirement for the testing of our project is the camera as our application is based on augmented reality. 
+Either the Webcams or the Built-in cameras can be used to test the application. The major advantage is that the Vuforia makes our application to run smoothly even in 
+the low light to provide better functionality.
+
+COMPILING CROSS PLATFORM:
+
+There are plenty of platforms available in the present world today. To name a few Android, IOS, Symbian, Java, Windows are some of them. The success of the application
+depends on the number of platforms that it can run. Hence the application that we develop must be compatible with most of the platforms. This application can run on the
+android platform.
+
+BUILD SETTING:
+
+The very first step is to download the module for the platform required to deploy. From the main scene of the project, clicking on the file from the menu and selecting 
+a build setting will give the user to select the deployment platform. The deployment platform is the place where the executions of the functions of the application are 
+done. If no modules are selected then we have to select the necessary modules for the build and deployment of the application.
+
+ANDROID NDK/SDK SET-UP:
+
+Before building the application for Android platform/Android devices Android SDK/NDK needs to be downloaded and installed. SDK is the main development kit for Android; 
+it contains tools for compiling java, APK file packaging, debugging and emulators. NDK consists of a set of files to compile C code. NDK also enables to access the device’s
+hardware components such as camera, sensor, and touch. The appropriate path for NDK and SDK has to be given in unity after the completion of installation
